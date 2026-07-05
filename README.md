@@ -1,21 +1,15 @@
-# Rickis Torres - Portafolio actualizado con foto
+# Rickis Pineda - Kyvora IT Automation Portfolio
 
-Esta versión ya incluye tu foto profesional dentro de:
+Versión actualizada del portafolio profesional.
 
-```text
-img/rickis.jpg
-```
+## Cambios incluidos
 
-La foto ya está recortada y optimizada para verse redonda en:
-
-- Logo del menú superior.
-- Tarjeta principal del perfil.
-- Pantalla de carga.
-
-## Cómo abrir
-
-1. Descomprime el ZIP.
-2. Abre `index.html` en tu navegador.
+- Se cambió el nombre profesional de **Rickis Torres** a **Rickis Pineda**.
+- Se eliminaron nombres internos y referencias directas a IMCA.
+- Se reemplazaron los nombres de proyectos por la marca **Kyvora**.
+- Se agregó una sección nueva de **Automatizaciones**.
+- Se agregaron proyectos de **Power Platform**, **Power Automate**, **Power Apps**, **Power BI** y **SharePoint Lists**.
+- Se mantuvo la foto redonda en el menú, tarjeta principal y pantalla de carga.
 
 ## Archivos principales
 
@@ -27,23 +21,31 @@ img/rickis.jpg
 img/rickis-original.jpg
 ```
 
-## Para cambiar LinkedIn
+## Cómo abrir
 
-Abre `index.html` y busca:
+1. Descomprime el ZIP.
+2. Abre `index.html` en el navegador.
 
-```html
-https://www.linkedin.com/
+## Para subir a GitHub
+
+Dentro de la carpeta del proyecto:
+
+```powershell
+git add .
+git commit -m "Actualizar portafolio Kyvora"
+git push
 ```
 
-Cámbialo por tu enlace real de LinkedIn.
+## Recomendación
 
-## Experiencia incluida
+Usa este portafolio para presentarte como:
 
-- Soporte técnico empresarial.
-- Microsoft 365, Intune, Exchange Online.
-- Active Directory y Windows Server.
-- PowerShell y Python para automatización.
-- Desarrollo con Python, Flask, SQL Server, SQLite, HTML, CSS y JavaScript.
-- Docker, Waitress y despliegue interno.
-- HelpDesk/ServiceDesk, red, VPN, impresoras y soporte operativo.
-- Proyectos: Ajuste de Inventario V3, IMCA Contracts, Kyvora Platform, SAP Docs, ProveedorNet, automatizaciones AD, USB de instalación, Microsoft 365/Intune y despliegue Flask.
+```text
+Rickis Pineda | IT Automation & Internal Systems Specialist
+```
+
+o:
+
+```text
+Rickis Pineda | Kyvora IT Automation Portfolio
+```

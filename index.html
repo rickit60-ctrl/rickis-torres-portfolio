@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Rickis Torres | IT Automation & Internal Systems</title>
-  <meta name="description" content="Portafolio profesional de Rickis Torres: soporte TI avanzado, automatización, Microsoft 365, Intune, Python, Flask, SQL Server, PowerShell y Docker." />
+  <title>Rickis Pineda | Kyvora IT Automation Portfolio</title>
+  <meta name="description" content="Portafolio profesional de Rickis Pineda: automatización de procesos, Power Platform, Power Automate, Microsoft 365, Intune, Python, Flask, SQL Server y PowerShell." />
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
@@ -13,8 +13,9 @@
 
   <div class="loader" id="loader">
     <div class="loader-card">
-      <img src="img/rickis.jpg" alt="Rickis Torres" class="loader-photo">
-      <p>Cargando portafolio profesional...</p>
+      <img src="img/rickis.jpg" alt="Rickis Pineda" class="loader-photo" onerror="this.style.display='none'; document.querySelector('.loader-fallback').style.display='grid';">
+      <div class="loader-fallback">RP</div>
+      <p>Cargando portafolio Kyvora...</p>
       <div class="loader-bar"><span></span></div>
     </div>
   </div>
@@ -23,9 +24,10 @@
     <nav class="nav container">
       <a href="#inicio" class="brand" aria-label="Inicio">
         <span class="brand-mark">
-          <img src="img/rickis.jpg" alt="Foto de Rickis Torres">
+          <img src="img/rickis.jpg" alt="Foto de Rickis Pineda" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+          <span class="brand-fallback">RP</span>
         </span>
-        <span class="brand-text">Rickis Torres</span>
+        <span class="brand-text">Rickis Pineda</span>
       </a>
 
       <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
@@ -36,7 +38,7 @@
         <a href="#inicio">Inicio</a>
         <a href="#perfil">Perfil</a>
         <a href="#experiencia">Experiencia</a>
-        <a href="#habilidades">Habilidades</a>
+        <a href="#automatizaciones">Automatizaciones</a>
         <a href="#proyectos">Proyectos</a>
         <a href="#contacto">Contacto</a>
       </div>
@@ -52,23 +54,23 @@
     <section id="inicio" class="hero">
       <div class="container hero-grid">
         <div class="hero-content reveal">
-          <div class="badge"><span class="pulse"></span> IT Automation · Microsoft 365 · Internal Systems</div>
+          <div class="badge"><span class="pulse"></span> Kyvora · IT Automation · Power Platform · Internal Systems</div>
 
           <p class="eyebrow">Portafolio profesional</p>
           <h1>
-            Creo soluciones de TI que convierten procesos manuales en
-            <span class="gradient-text">sistemas automatizados y profesionales</span>.
+            Automatizo procesos de TI y convierto operaciones manuales en
+            <span class="gradient-text">soluciones empresariales inteligentes</span>.
           </h1>
 
           <p class="hero-text">
-            Soy <strong>Rickis Torres</strong>, profesional de Tecnología de la Información con experiencia en soporte
-            técnico avanzado, infraestructura, Microsoft 365, Intune, Active Directory, automatización con PowerShell
-            y desarrollo de aplicaciones internas con <span id="typewriter"></span><span class="cursor">|</span>
+            Soy <strong>Rickis Pineda</strong>, profesional de Tecnología de la Información enfocado en soporte avanzado,
+            Microsoft 365, Power Platform, Power Automate, PowerShell, Python y desarrollo de sistemas internos bajo
+            una visión profesional de automatización llamada <strong>Kyvora</strong>. Trabajo con <span id="typewriter"></span><span class="cursor">|</span>
           </p>
 
           <div class="hero-actions">
             <a href="#proyectos" class="btn btn-primary magnetic">Ver proyectos</a>
-            <a href="#experiencia" class="btn btn-secondary magnetic">Ver experiencia</a>
+            <a href="#automatizaciones" class="btn btn-secondary magnetic">Ver automatizaciones</a>
             <button class="btn btn-ghost magnetic" id="copyEmailBtn">Copiar correo</button>
           </div>
 
@@ -78,12 +80,12 @@
               <span>Años en soporte TI</span>
             </div>
             <div class="stat-card reveal">
-              <strong data-count="15">0</strong>
-              <span>Tecnologías clave</span>
+              <strong data-count="20">0</strong>
+              <span>Tecnologías y herramientas</span>
             </div>
             <div class="stat-card reveal">
-              <strong data-count="10">0</strong>
-              <span>Proyectos demostrables</span>
+              <strong data-count="14">0</strong>
+              <span>Proyectos y automatizaciones</span>
             </div>
           </div>
         </div>
@@ -93,29 +95,31 @@
 
           <div class="profile-card">
             <div class="profile-avatar">
-              <img src="img/rickis.jpg" alt="Foto profesional de Rickis Torres">
+              <img src="img/rickis.jpg" alt="Foto profesional de Rickis Pineda" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+              <span class="avatar-fallback">RP</span>
             </div>
             <div>
-              <h2>Rickis Torres</h2>
-              <p>IT Support & Automation Specialist</p>
+              <h2>Rickis Pineda</h2>
+              <p>IT Automation & Internal Systems Specialist</p>
             </div>
           </div>
 
           <div class="terminal-card">
             <div class="terminal-header">
               <span></span><span></span><span></span>
-              <small>portfolio.py</small>
+              <small>kyvora_automation.py</small>
             </div>
             <pre id="terminalText"></pre>
           </div>
 
           <div class="tech-orbit">
+            <span>Power Automate</span>
+            <span>Power Apps</span>
+            <span>Power BI</span>
             <span>Python</span>
             <span>Flask</span>
-            <span>SQL Server</span>
             <span>PowerShell</span>
             <span>Microsoft 365</span>
-            <span>Docker</span>
           </div>
         </aside>
       </div>
@@ -125,37 +129,37 @@
       <div class="container two-columns">
         <div class="reveal">
           <p class="section-tag">Perfil profesional</p>
-          <h2>Soporte TI avanzado con visión de automatización y desarrollo interno.</h2>
+          <h2>Soporte TI avanzado con enfoque fuerte en automatización, Power Platform y sistemas internos.</h2>
           <p class="section-lead">
-            Mi diferencial es que entiendo la operación diaria de TI y puedo transformar necesidades reales en herramientas funcionales.
+            Mi propuesta no es solo resolver incidencias; es convertir problemas repetitivos en procesos digitales medibles.
           </p>
         </div>
 
         <div class="about-card reveal">
           <p>
-            Profesional de Tecnología de la Información con más de 5 años de experiencia en soporte técnico,
-            administración de usuarios, infraestructura, Microsoft 365, Intune, Exchange Online, Active Directory,
-            Windows Server, ServiceDesk/HelpDesk y resolución de incidencias empresariales.
+            Soy profesional de Tecnología de la Información con más de 5 años de experiencia en soporte técnico,
+            administración de usuarios, Microsoft 365, Intune, Exchange Online, Active Directory, Windows Server,
+            ServiceDesk/HelpDesk, redes, VPN, impresoras y soporte operativo empresarial.
           </p>
           <p>
-            Además del soporte tradicional, desarrollo soluciones internas con Python, Flask, SQL Server, SQLite,
-            HTML, CSS, JavaScript, ReportLab y PowerShell para automatizar procesos, generar documentos PDF,
-            manejar flujos de aprobación, controlar inventario, gestionar usuarios y mejorar la trazabilidad.
+            Bajo el enfoque <strong>Kyvora</strong>, desarrollo soluciones internas y automatizaciones usando Python,
+            Flask, SQL Server, SQLite, HTML, CSS, JavaScript, ReportLab, PowerShell, Power Automate, Power Apps,
+            SharePoint Lists y Power BI. Mi objetivo es reducir trabajo manual, mejorar la trazabilidad y entregar
+            herramientas fáciles de usar para usuarios, gerentes y equipos de TI.
           </p>
           <p>
-            Mi objetivo profesional es crecer como especialista en <strong>Systems & AI Automation</strong>,
-            combinando administración de TI, automatización de procesos, desarrollo web interno, nube y soluciones
-            empresariales apoyadas en inteligencia artificial.
+            Mi ruta profesional está orientada a <strong>Systems & AI Automation</strong>: combinar soporte técnico,
+            automatización de procesos, desarrollo web interno, nube, Power Platform, analítica y soluciones asistidas por IA.
           </p>
 
           <div class="about-highlights">
             <div>
-              <strong>Especialidad</strong>
-              <span>Automatización de procesos TI</span>
+              <strong>Marca profesional</strong>
+              <span>Kyvora Automation</span>
             </div>
             <div>
-              <strong>Fortaleza</strong>
-              <span>Soporte + desarrollo + infraestructura</span>
+              <strong>Especialidad</strong>
+              <span>Automatización TI y procesos internos</span>
             </div>
             <div>
               <strong>Meta</strong>
@@ -174,7 +178,8 @@
             <h2>Áreas donde aporto valor técnico y operativo.</h2>
           </div>
           <p>
-            Una combinación de soporte empresarial, administración Microsoft, automatización, desarrollo interno y despliegue de soluciones.
+            Experiencia real combinando soporte empresarial, administración Microsoft, automatización, Power Platform,
+            desarrollo interno y despliegue de soluciones.
           </p>
         </div>
 
@@ -203,6 +208,17 @@
 
           <article class="experience-card reveal">
             <span class="exp-number">03</span>
+            <h3>Power Platform</h3>
+            <p>Creación de soluciones rápidas con Power Apps, Power Automate, SharePoint Lists y Power BI para digitalizar procesos internos.</p>
+            <ul>
+              <li>Apps para formularios, solicitudes y aprobaciones.</li>
+              <li>Flujos automáticos de notificación y seguimiento.</li>
+              <li>Reportes y dashboards operativos.</li>
+            </ul>
+          </article>
+
+          <article class="experience-card reveal">
+            <span class="exp-number">04</span>
             <h3>Active Directory y Windows Server</h3>
             <p>Gestión de usuarios, grupos, bloqueos, permisos, tareas programadas y soporte en infraestructura Windows Server.</p>
             <ul>
@@ -213,7 +229,7 @@
           </article>
 
           <article class="experience-card reveal">
-            <span class="exp-number">04</span>
+            <span class="exp-number">05</span>
             <h3>Automatización con PowerShell y Python</h3>
             <p>Creación de scripts, automatizaciones, tareas programadas y herramientas para reducir trabajo manual dentro del área de TI.</p>
             <ul>
@@ -224,31 +240,90 @@
           </article>
 
           <article class="experience-card reveal">
-            <span class="exp-number">05</span>
+            <span class="exp-number">06</span>
             <h3>Desarrollo de sistemas internos</h3>
-            <p>Aplicaciones web para procesos empresariales como inventario, contratos, solicitudes, aprobaciones, auditoría y reportes.</p>
+            <p>Aplicaciones web para inventario, contratos, solicitudes, aprobaciones, auditoría, reportes y gestión documental.</p>
             <ul>
               <li>Python, Flask, HTML, CSS y JavaScript.</li>
               <li>SQL Server y SQLite.</li>
               <li>PDF con ReportLab, firmas digitales y dashboards.</li>
             </ul>
           </article>
+        </div>
+      </div>
+    </section>
 
-          <article class="experience-card reveal">
-            <span class="exp-number">06</span>
-            <h3>Despliegue y operación</h3>
-            <p>Preparación de aplicaciones para ejecución interna usando Windows Server, Waitress, firewall, puertos, variables de entorno y Docker.</p>
-            <ul>
-              <li>Flask con Waitress.</li>
-              <li>SQL Server local o empresarial.</li>
-              <li>Preparación para Docker y ambientes internos.</li>
-            </ul>
+    <section id="automatizaciones" class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-tag">Automatizaciones</p>
+            <h2>Automatizaciones y soluciones creadas con Power Platform, Power Automate, PowerShell y Python.</h2>
+          </div>
+          <p>
+            Esta sección muestra el tipo de automatizaciones que puedo construir para reducir trabajo manual y mejorar la operación.
+          </p>
+        </div>
+
+        <div class="automation-grid">
+          <article class="automation-card reveal">
+            <div class="automation-icon">⚡</div>
+            <h3>Flujos de aprobación con Power Automate</h3>
+            <p>Automatización de solicitudes internas con aprobaciones, comentarios, estados, notificaciones y registro en SharePoint Lists.</p>
+          </article>
+
+          <article class="automation-card reveal">
+            <div class="automation-icon">✉</div>
+            <h3>Notificaciones automáticas por correo</h3>
+            <p>Envío automático de correos cuando una solicitud se crea, se aprueba, se rechaza o cambia de estado.</p>
+          </article>
+
+          <article class="automation-card reveal">
+            <div class="automation-icon">📋</div>
+            <h3>Power Apps para formularios internos</h3>
+            <p>Aplicaciones sencillas para capturar solicitudes, validar datos y centralizar información operativa sin depender de archivos sueltos.</p>
+          </article>
+
+          <article class="automation-card reveal">
+            <div class="automation-icon">📊</div>
+            <h3>Dashboards con Power BI</h3>
+            <p>Reportes visuales para dar seguimiento a solicitudes, tickets, estados, productividad, tiempos y volumen de casos.</p>
+          </article>
+
+          <article class="automation-card reveal">
+            <div class="automation-icon">🧩</div>
+            <h3>Automatización con SharePoint Lists</h3>
+            <p>Listas estructuradas como base para flujos, formularios, control de estados, auditoría y reportes conectados.</p>
+          </article>
+
+          <article class="automation-card reveal">
+            <div class="automation-icon">🔐</div>
+            <h3>Procesos de usuarios y accesos</h3>
+            <p>Flujos para solicitar usuarios, aprobar accesos, registrar responsables, controlar permisos y documentar la creación.</p>
+          </article>
+
+          <article class="automation-card reveal">
+            <div class="automation-icon">🖥</div>
+            <h3>Scripts PowerShell para soporte TI</h3>
+            <p>Automatización de tareas repetitivas como validaciones de usuario, desbloqueos, consultas y ejecución programada desde servidor.</p>
+          </article>
+
+          <article class="automation-card reveal">
+            <div class="automation-icon">📄</div>
+            <h3>PDF automáticos con Python</h3>
+            <p>Generación de documentos oficiales, contratos, constancias, reportes, firmas digitales y evidencias en PDF.</p>
+          </article>
+
+          <article class="automation-card reveal">
+            <div class="automation-icon">🔁</div>
+            <h3>Sincronización de datos y reportes</h3>
+            <p>Procesos para importar, limpiar, validar y consultar información desde Excel, SQL Server, SharePoint o formularios internos.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <section id="habilidades" class="section">
+    <section id="habilidades" class="section section-muted">
       <div class="container">
         <div class="section-heading reveal">
           <div>
@@ -256,7 +331,7 @@
             <h2>Stack tecnológico organizado por área.</h2>
           </div>
           <p>
-            Estas habilidades representan mi enfoque actual: soporte avanzado, automatización, desarrollo interno y administración Microsoft.
+            Herramientas enfocadas en soporte avanzado, automatización, desarrollo interno, Power Platform y administración Microsoft.
           </p>
         </div>
 
@@ -271,36 +346,40 @@
 
             <article class="skill-card">
               <div class="skill-icon">☷</div>
-              <h3>Datos</h3>
-              <p>SQL Server, SQLite, consultas SQL, diseño de tablas, auditoría y separación por empresa.</p>
-              <div class="skill-bar"><span style="width: 82%"></span></div>
+              <h3>Datos y reportes</h3>
+              <p>SQL Server, SQLite, consultas SQL, Power BI, SharePoint Lists, auditoría y separación por empresa.</p>
+              <div class="skill-bar"><span style="width: 84%"></span></div>
             </article>
 
             <article class="skill-card">
               <div class="skill-icon">⚡</div>
               <h3>Automatización</h3>
-              <p>PowerShell, tareas programadas, scripts de soporte, notificaciones y automatización TI.</p>
-              <div class="skill-bar"><span style="width: 88%"></span></div>
+              <p>Power Automate, PowerShell, tareas programadas, scripts de soporte, notificaciones y flujos internos.</p>
+              <div class="skill-bar"><span style="width: 90%"></span></div>
             </article>
 
             <article class="skill-card">
               <div class="skill-icon">☁</div>
               <h3>Microsoft & Cloud TI</h3>
               <p>Microsoft 365, Intune, Exchange Online, Active Directory, MFA y administración de usuarios.</p>
-              <div class="skill-bar"><span style="width: 84%"></span></div>
+              <div class="skill-bar"><span style="width: 86%"></span></div>
             </article>
           </div>
 
           <div class="stack-cloud reveal">
+            <span>Power Automate</span>
+            <span>Power Apps</span>
+            <span>Power BI</span>
+            <span>SharePoint Lists</span>
+            <span>Microsoft 365</span>
+            <span>Intune</span>
+            <span>Exchange Online</span>
+            <span>Active Directory</span>
             <span>Python</span>
             <span>Flask</span>
             <span>SQL Server</span>
             <span>SQLite</span>
             <span>PowerShell</span>
-            <span>Microsoft 365</span>
-            <span>Intune</span>
-            <span>Exchange Online</span>
-            <span>Active Directory</span>
             <span>Windows Server</span>
             <span>Docker</span>
             <span>Waitress</span>
@@ -313,21 +392,22 @@
       </div>
     </section>
 
-    <section id="proyectos" class="section section-muted">
+    <section id="proyectos" class="section">
       <div class="container">
         <div class="section-heading reveal">
           <div>
             <p class="section-tag">Proyectos</p>
-            <h2>Proyectos que demuestran mi experiencia.</h2>
+            <h2>Proyectos Kyvora que demuestran mi experiencia.</h2>
           </div>
           <p>
-            Cada proyecto está presentado como caso de estudio, sin información sensible ni datos internos reales.
+            Cada proyecto está presentado como caso de estudio, usando nombres genéricos y sin información sensible.
           </p>
         </div>
 
         <div class="filters reveal" id="projectFilters">
           <button class="filter-btn active" data-filter="todos">Todos</button>
           <button class="filter-btn" data-filter="web">Sistemas web</button>
+          <button class="filter-btn" data-filter="powerplatform">Power Platform</button>
           <button class="filter-btn" data-filter="automation">Automatización</button>
           <button class="filter-btn" data-filter="infra">Infraestructura</button>
           <button class="filter-btn" data-filter="microsoft">Microsoft 365</button>
@@ -337,7 +417,7 @@
       </div>
     </section>
 
-    <section id="metodo" class="section">
+    <section id="metodo" class="section section-muted">
       <div class="container">
         <div class="section-heading reveal">
           <div>
@@ -345,7 +425,7 @@
             <h2>Cómo llevo una necesidad a una solución funcional.</h2>
           </div>
           <p>
-            Mi método une análisis operativo, desarrollo, pruebas y documentación para entregar herramientas reales.
+            Mi método une análisis operativo, automatización, desarrollo, pruebas y documentación.
           </p>
         </div>
 
@@ -355,21 +435,21 @@
             <span>01</span>
             <div>
               <h3>Analizo el problema</h3>
-              <p>Entiendo el proceso manual, usuarios involucrados, aprobaciones, documentos y errores frecuentes.</p>
+              <p>Entiendo el proceso manual, usuarios involucrados, aprobaciones, documentos, datos y errores frecuentes.</p>
             </div>
           </article>
           <article class="timeline-item">
             <span>02</span>
             <div>
               <h3>Diseño el flujo</h3>
-              <p>Defino módulos, roles, pantallas, datos, permisos, reportes, PDF y notificaciones.</p>
+              <p>Defino módulos, roles, pantallas, permisos, Power Automate, Power Apps, reportes, PDF y notificaciones.</p>
             </div>
           </article>
           <article class="timeline-item">
             <span>03</span>
             <div>
-              <h3>Desarrollo y automatizo</h3>
-              <p>Construyo la aplicación o script con validaciones, auditoría, seguridad y experiencia de usuario.</p>
+              <h3>Automatizo y desarrollo</h3>
+              <p>Construyo la app, flujo o script con validaciones, auditoría, seguridad y experiencia de usuario.</p>
             </div>
           </article>
           <article class="timeline-item">
@@ -391,10 +471,10 @@
         </div>
 
         <div class="metrics-grid">
+          <div><strong>Power Platform</strong><span>apps, flujos y reportes</span></div>
           <div><strong>PDF</strong><span>documentos automáticos</span></div>
           <div><strong>Roles</strong><span>permisos por perfil</span></div>
           <div><strong>Auditoría</strong><span>historial de acciones</span></div>
-          <div><strong>Correo</strong><span>notificaciones de flujo</span></div>
         </div>
       </div>
     </section>
@@ -404,13 +484,13 @@
         <p class="section-tag">Contacto</p>
         <h2>¿Tienes un proceso manual que necesita convertirse en sistema?</h2>
         <p>
-          Estoy abierto a colaborar en proyectos de automatización, desarrollo de aplicaciones internas,
-          soporte TI avanzado, Microsoft 365, Intune, PowerShell, Python y soluciones empresariales.
+          Estoy abierto a colaborar en proyectos de automatización, Power Platform, Power Automate,
+          desarrollo de aplicaciones internas, soporte TI avanzado, Microsoft 365, PowerShell, Python y soluciones empresariales.
         </p>
 
         <div class="contact-actions">
           <a href="mailto:rickit60@gmail.com" class="btn btn-primary magnetic">Enviar correo</a>
-          <a href="https://github.com/rickit60" target="_blank" rel="noopener" class="btn btn-secondary magnetic">GitHub</a>
+          <a href="https://github.com/rickit60-ctrl" target="_blank" rel="noopener" class="btn btn-secondary magnetic">GitHub</a>
           <a href="https://www.linkedin.com/" target="_blank" rel="noopener" class="btn btn-secondary magnetic">LinkedIn</a>
         </div>
 
@@ -459,7 +539,7 @@
 
   <footer class="site-footer">
     <div class="container footer-content">
-      <p>© <span id="year"></span> Rickis Torres. IT Automation & Internal Systems Portfolio.</p>
+      <p>© <span id="year"></span> Rickis Pineda. Kyvora IT Automation Portfolio.</p>
       <a href="#inicio">Volver arriba ↑</a>
     </div>
   </footer>

@@ -1,26 +1,26 @@
 const projects = [
   {
-    title: "Ajuste de Inventario V3",
+    title: "Kyvora Inventory Control",
     category: "Sistema empresarial · Inventario",
     filter: "web",
     description: "Sistema web para ajustes de inventario con aprobación, roles, auditoría, PDF multipágina, firmas, importación masiva y separación por empresa.",
-    problem: "El proceso de ajustes de inventario necesitaba trazabilidad, aprobación formal, control por país/empresa y generación de documentos.",
+    problem: "El proceso de ajustes de inventario necesitaba trazabilidad, aprobación formal, control por empresa y generación de documentos.",
     solution: "Diseñé una plataforma con Python, Flask y SQL Server para crear ajustes, aprobarlos, generar PDF, registrar auditoría y gestionar información por empresa.",
-    features: ["Flujo usuario → gerente → analista", "PDF multipágina con firmas", "Importación de costos e ítems", "Dashboard con filtros", "Auditoría e historial", "Separación RD/Jamaica"],
+    features: ["Flujo usuario → gerente → analista", "PDF multipágina con firmas", "Importación de costos e ítems", "Dashboard con filtros", "Auditoría e historial", "Separación por empresa"],
     tags: ["Python", "Flask", "SQL Server", "ReportLab", "Roles", "PDF"]
   },
   {
-    title: "IMCA Contracts / Generador de documentos TI",
+    title: "Kyvora Contracts",
     category: "Sistema web · Documentos PDF",
     filter: "web",
     description: "Plataforma para generar documentos de TI, capturar firmas digitales, guardar historial, buscar registros y descargar PDF.",
-    problem: "La generación de contratos y descargos de equipos podía ser manual, lenta y difícil de consultar.",
+    problem: "La generación de contratos, entregas y descargos de equipos podía ser manual, lenta y difícil de consultar.",
     solution: "Construí una aplicación con formularios, firma canvas, PDF automático, historial y descarga de documentos.",
     features: ["Firma digital con canvas", "PDF con formato profesional", "Historial de documentos", "Búsqueda y descarga", "Login y roles"],
     tags: ["Flask", "SQLite", "ReportLab", "Firma digital", "PDF"]
   },
   {
-    title: "Kyvora Platform / Solicitud de usuarios",
+    title: "Kyvora Access Flow",
     category: "Workflow · Usuarios · Aprobaciones",
     filter: "web",
     description: "Sistema para solicitudes de creación de usuarios con firma del solicitante, aprobación de gerente, firma final de TI y PDF final.",
@@ -30,20 +30,50 @@ const projects = [
     tags: ["Workflow", "Aprobaciones", "Usuarios", "PDF", "Firmas"]
   },
   {
-    title: "SAP Docs",
-    category: "Sistema web · Documentos SAP",
+    title: "Kyvora Power Apps Requests",
+    category: "Power Platform · Formularios internos",
+    filter: "powerplatform",
+    description: "Aplicación en Power Apps para capturar solicitudes internas, validar información y centralizar el seguimiento del proceso.",
+    problem: "Los usuarios necesitaban un formulario simple para registrar solicitudes sin depender de correos o archivos sueltos.",
+    solution: "Diseñé una app conectada a SharePoint Lists con campos controlados, estados y estructura lista para automatización.",
+    features: ["Formulario Power Apps", "SharePoint Lists", "Estados del proceso", "Validación de campos", "Experiencia móvil"],
+    tags: ["Power Apps", "SharePoint", "Low Code", "Forms"]
+  },
+  {
+    title: "Kyvora Approval Automations",
+    category: "Power Automate · Aprobaciones",
+    filter: "powerplatform",
+    description: "Flujos en Power Automate para enviar aprobaciones, actualizar estados, registrar comentarios y notificar a los responsables.",
+    problem: "Las aprobaciones manuales por correo eran difíciles de rastrear y podían perder seguimiento.",
+    solution: "Implementé flujos de aprobación con notificaciones, actualización automática de estado y registro de la respuesta.",
+    features: ["Aprobaciones automáticas", "Notificaciones", "Actualización de SharePoint", "Comentarios", "Trazabilidad"],
+    tags: ["Power Automate", "Approvals", "SharePoint", "Outlook"]
+  },
+  {
+    title: "Kyvora Reports Dashboard",
+    category: "Power BI · Reportes",
+    filter: "powerplatform",
+    description: "Dashboard de seguimiento para visualizar solicitudes, estados, tiempos, volumen de casos y métricas operativas.",
+    problem: "La operación necesitaba visibilidad rápida del estado de los procesos y volumen de solicitudes.",
+    solution: "Construí reportes conectados a datos estructurados para visualizar indicadores y apoyar la toma de decisiones.",
+    features: ["Indicadores de estado", "Filtros", "Gráficos", "Seguimiento por responsable", "Métricas operativas"],
+    tags: ["Power BI", "Reporting", "Dashboards", "Data"]
+  },
+  {
+    title: "Kyvora SAP Docs",
+    category: "Sistema web · Documentos operativos",
     filter: "web",
-    description: "Aplicación Node/Express para gestión de órdenes y documentos SAP con PDF, estados, roles y país.",
-    problem: "Era necesario organizar documentos SAP, estados y seguimiento en una interfaz moderna.",
+    description: "Aplicación para gestión de órdenes y documentos operativos con PDF, estados, roles y país.",
+    problem: "Era necesario organizar documentos, estados y seguimiento en una interfaz moderna.",
     solution: "Desarrollo de sistema web con login, dashboard, roles, estados y generación de PDF.",
     features: ["Login y roles", "Dashboard", "PDF", "Estado de documentos", "Soporte por país"],
     tags: ["Node", "Express", "PDF", "Dashboard"]
   },
   {
-    title: "ProveedorNet",
+    title: "Kyvora Supplier Portal",
     category: "Sistema web · Proveedores",
     filter: "web",
-    description: "Interfaz Angular para gestión de proveedores con dashboard, tabla de datos, importación, exportación y modo oscuro/claro.",
+    description: "Interfaz para gestión de proveedores con dashboard, tabla de datos, importación, exportación y modo oscuro/claro.",
     problem: "Se necesitaba una interfaz clara para visualizar y manejar datos de proveedores.",
     solution: "Construcción de interfaz moderna con navegación, tabla, acciones y experiencia visual profesional.",
     features: ["Dashboard", "Tabla de datos", "Importación", "Exportación", "Tema claro/oscuro"],
@@ -60,12 +90,12 @@ const projects = [
     tags: ["PowerShell", "AD", "Windows Server", "Automation"]
   },
   {
-    title: "USB de instalación automática",
+    title: "Automatización de instalación de equipos",
     category: "Automatización · Soporte TI",
     filter: "automation",
     description: "Guion para automatizar instalación de aplicaciones corporativas en equipos nuevos o formateados.",
     problem: "La preparación de equipos podía requerir muchos pasos manuales y repetitivos.",
-    solution: "Diseñé un flujo de instalación por USB con orden de aplicaciones, confirmaciones y menor intervención manual.",
+    solution: "Diseñé un flujo de instalación con orden de aplicaciones, confirmaciones y menor intervención manual.",
     features: ["Instalación guiada", "Orden de aplicaciones", "Confirmaciones", "Reducción de tiempo", "Preparación de PCs"],
     tags: ["PowerShell", "Windows", "Automation", "Soporte TI"]
   },
@@ -95,6 +125,7 @@ const quickItems = [
   { label: "Inicio", type: "Sección", target: "#inicio" },
   { label: "Perfil profesional", type: "Sección", target: "#perfil" },
   { label: "Experiencia", type: "Sección", target: "#experiencia" },
+  { label: "Automatizaciones", type: "Sección", target: "#automatizaciones" },
   { label: "Habilidades", type: "Sección", target: "#habilidades" },
   { label: "Proyectos", type: "Sección", target: "#proyectos" },
   { label: "Contacto", type: "Sección", target: "#contacto" },
@@ -206,7 +237,7 @@ const counterObserver = new IntersectionObserver((entries) => {
 
 document.querySelectorAll("[data-count]").forEach((el) => counterObserver.observe(el));
 
-const words = ["Python.", "Flask.", "SQL Server.", "PowerShell.", "Microsoft 365.", "Intune.", "Docker."];
+const words = ["Power Automate.", "Power Apps.", "Power BI.", "Python.", "Flask.", "SQL Server.", "PowerShell.", "Microsoft 365."];
 let wordIndex = 0;
 let charIndex = 0;
 let deleting = false;
@@ -234,15 +265,16 @@ function runTypewriter() {
 runTypewriter();
 
 const terminalLines = [
-  "$ perfil --rickis-torres",
+  "$ kyvora --profile rickis-pineda",
   "✓ soporte técnico empresarial",
   "✓ Microsoft 365 / Intune / Exchange",
+  "✓ Power Platform / Power Automate",
   "✓ PowerShell / Python automation",
   "",
-  "$ build --internal-systems",
-  "✓ Flask + SQL Server",
+  "$ build --automation-suite",
+  "✓ apps + flows + dashboards",
   "✓ PDF + firmas + auditoría",
-  "✓ workflows + dashboards",
+  "✓ workflows + notifications",
   "",
   "status: ready_to_publish"
 ];
