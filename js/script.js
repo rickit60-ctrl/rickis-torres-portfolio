@@ -66,7 +66,7 @@ const projects = [
     description: "Aplicación para gestión de órdenes y documentos operativos con PDF, estados, roles y país.",
     problem: "Era necesario organizar documentos, estados y seguimiento en una interfaz moderna.",
     solution: "Desarrollo de sistema web con login, dashboard, roles, estados y generación de PDF.",
-    features: ["Login y roles", "Dashboard", "PDF", "Estado de documentos", "Soporte por país"],
+    features: ["Login y roles", "Dashboard", "PDF", "Estado de documentos", "Desarrollo por país"],
     tags: ["Node", "Express", "PDF", "Dashboard"]
   },
   {
@@ -91,19 +91,19 @@ const projects = [
   },
   {
     title: "Automatización de instalación de equipos",
-    category: "Automatización · Soporte TI",
+    category: "Automatización · Preparación de equipos",
     filter: "automation",
-    description: "Guion para automatizar instalación de aplicaciones corporativas en equipos nuevos o formateados.",
-    problem: "La preparación de equipos podía requerir muchos pasos manuales y repetitivos.",
-    solution: "Diseñé un flujo de instalación con orden de aplicaciones, confirmaciones y menor intervención manual.",
+    description: "Automatización para preparar entornos y reducir pasos manuales durante configuraciones repetitivas.",
+    problem: "Algunos procesos de configuración podían requerir pasos manuales repetitivos y difíciles de estandarizar.",
+    solution: "Diseñé un flujo automatizado con orden de ejecución, confirmaciones y menor intervención manual.",
     features: ["Instalación guiada", "Orden de aplicaciones", "Confirmaciones", "Reducción de tiempo", "Preparación de PCs"],
-    tags: ["PowerShell", "Windows", "Automation", "Soporte TI"]
+    tags: ["PowerShell", "Windows", "Automation", "Automatización"]
   },
   {
     title: "Administración Microsoft 365 e Intune",
     category: "Microsoft 365 · Intune · Exchange",
     filter: "microsoft",
-    description: "Gestión de usuarios, licencias, buzones, políticas, dispositivos, MFA, registros de autenticación y soporte avanzado.",
+    description: "Gestión de usuarios, licencias, buzones, políticas, dispositivos, MFA, registros de autenticación y desarrollo avanzado.",
     problem: "Los entornos Microsoft requieren control de accesos, seguridad, autenticación y administración continua.",
     solution: "Administración de Microsoft 365, Exchange Online, Intune y revisión de autenticaciones para resolver incidencias de usuarios.",
     features: ["Gestión de usuarios", "Exchange Online", "Intune", "MFA", "Logs de inicio de sesión", "Políticas de dispositivos"],
@@ -266,8 +266,8 @@ runTypewriter();
 
 const terminalLines = [
   "$ kyvora --profile rickis-pineda",
-  "✓ soporte técnico empresarial",
-  "✓ Microsoft 365 / Intune / Exchange",
+  "✓ desarrollo Python empresarial",
+  "✓ Flask / SQL Server / APIs",
   "✓ Power Platform / Power Automate",
   "✓ PowerShell / Python automation",
   "",

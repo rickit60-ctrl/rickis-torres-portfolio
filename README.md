@@ -1,15 +1,21 @@
-# Rickis Pineda - Kyvora IT Automation Portfolio
+# Rickis Pineda - Python Developer & Automation Portfolio
 
-Versión actualizada del portafolio profesional.
+Versión actualizada del portafolio profesional con enfoque de **Desarrollador Python** y **Automatizador de Procesos**.
 
 ## Cambios incluidos
 
-- Se cambió el nombre profesional de **Rickis Torres** a **Rickis Pineda**.
-- Se eliminaron nombres internos y referencias directas a IMCA.
-- Se reemplazaron los nombres de proyectos por la marca **Kyvora**.
-- Se agregó una sección nueva de **Automatizaciones**.
-- Se agregaron proyectos de **Power Platform**, **Power Automate**, **Power Apps**, **Power BI** y **SharePoint Lists**.
-- Se mantuvo la foto redonda en el menú, tarjeta principal y pantalla de carga.
+- Perfil orientado a **Python Developer**.
+- Perfil presentado como desarrollador Python y automatizador de procesos.
+- Se mantiene la experiencia de automatización, Power Platform, Power Automate, Power Apps, Power BI y SharePoint Lists.
+- Se mantienen proyectos bajo la marca **Kyvora**.
+- Se mantiene la foto redonda.
+- Se mantiene diseño interactivo, modo oscuro, filtros, modales y animaciones.
+
+## Perfil recomendado
+
+```text
+Rickis Pineda | Python Developer & Automation Specialist
+```
 
 ## Archivos principales
 
@@ -21,31 +27,12 @@ img/rickis.jpg
 img/rickis-original.jpg
 ```
 
-## Cómo abrir
+## Para actualizar en GitHub
 
-1. Descomprime el ZIP.
-2. Abre `index.html` en el navegador.
-
-## Para subir a GitHub
-
-Dentro de la carpeta del proyecto:
+Copia estos archivos sobre tu repositorio y ejecuta:
 
 ```powershell
 git add .
-git commit -m "Actualizar portafolio Kyvora"
+git commit -m "Actualizar perfil a Python Developer"
 git push
-```
-
-## Recomendación
-
-Usa este portafolio para presentarte como:
-
-```text
-Rickis Pineda | IT Automation & Internal Systems Specialist
-```
-
-o:
-
-```text
-Rickis Pineda | Kyvora IT Automation Portfolio
 ```
